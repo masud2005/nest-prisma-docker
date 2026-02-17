@@ -56,7 +56,7 @@ async function bootstrap() {
 
   // Swagger setup
   const config = new DocumentBuilder()
-    .setTitle('Frank Ramos API')
+    .setTitle('Backend API')
     .setDescription('The API description')
     .setVersion('1.0')
     .addBearerAuth()
